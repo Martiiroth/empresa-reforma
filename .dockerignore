@@ -1,0 +1,59 @@
+# Archivos de dependencias
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de Next.js
+.next/
+out/
+build/
+
+# Archivos de producción
+dist/
+
+# Archivos locales de entorno
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de sistema
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs
+logs
+*.log
+
+# Archivos de caché
+.cache/
+.parcel-cache/
+
+# Archivos de testing
+coverage/
+.nyc_output
+
+# Archivos de Git
+.git
+.gitignore
+README.md
+
+# Archivos de Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Archivos de desarrollo
+.eslintrc.json
+.prettierrc
+.prettierignore
