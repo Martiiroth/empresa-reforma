@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Link from "next/link"
 import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
 
@@ -133,8 +134,9 @@ export default function Portfolio() {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {filteredProjects.map((project) => (
-            <div
+            <Link
               key={project.id}
+              href={`/proyectos/${project.id}`}
               className="group overflow-hidden rounded-xl border border-border hover:border-foreground/30 transition-all duration-300 cursor-pointer hover:shadow-xl"
             >
               <div className="relative h-64 overflow-hidden bg-muted">
@@ -163,7 +165,7 @@ export default function Portfolio() {
                   <span>{project.location}</span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
