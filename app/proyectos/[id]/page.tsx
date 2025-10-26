@@ -290,12 +290,23 @@ export default function ProjectDetail() {
                 <p className="text-sm text-muted-foreground mb-2">Materiales</p>
                 <p className="text-foreground text-sm leading-relaxed">{project.materials}</p>
               </div>
+            </div>
+          </div>
+        </div>
 
-              {/* Contact Form */}
-              <div className="border-t border-foreground/10 pt-6">
-                <h3 className="text-lg font-semibold text-foreground mb-4">¿Interesado en este proyecto?</h3>
-                <ContactForm projectTitle={project.title} showProjectInfo={true} />
+        {/* Contact Section */}
+        <div className="relative py-16 px-4 -mx-4 bg-foreground/5 border-y border-foreground/10">
+          <div className="max-w-6xl mx-auto">
+            <div className="mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Ponte en Contacto</h2>
+              <div className="flex items-baseline gap-4">
+                <p className="text-sm text-muted-foreground">Consultando sobre:</p>
+                <p className="text-2xl font-semibold text-foreground">{project.title}</p>
               </div>
+            </div>
+
+            <div className="max-w-2xl">
+              <ContactForm projectTitle={project.title} showProjectInfo={false} />
             </div>
           </div>
         </div>
