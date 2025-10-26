@@ -3,6 +3,7 @@
 import { useParams, useRouter } from "next/navigation"
 import Image from "next/image"
 import { ArrowLeft, MapPin, Calendar } from "lucide-react"
+import ContactForm from "@/components/contact-form"
 
 export default function ProjectDetail() {
   const params = useParams()
@@ -289,12 +290,13 @@ export default function ProjectDetail() {
                 <p className="text-sm text-muted-foreground mb-2">Materiales</p>
                 <p className="text-foreground text-sm leading-relaxed">{project.materials}</p>
               </div>
-            </div>
 
-            {/* CTA Button */}
-            <button className="w-full mt-8 px-6 py-3 bg-foreground text-background rounded-lg font-semibold hover:bg-foreground/90 transition-all">
-              Solicitar Información
-            </button>
+              {/* Contact Form */}
+              <div className="border-t border-foreground/10 pt-6">
+                <h3 className="text-lg font-semibold text-foreground mb-4">¿Interesado en este proyecto?</h3>
+                <ContactForm projectTitle={project.title} showProjectInfo={true} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
