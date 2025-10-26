@@ -19,22 +19,22 @@ export default function Services() {
     {
       title: "Diseño y planificación",
       description: "Creamos planos detallados para optimizar funcionalidad y estética.",
-      image: "/service-diseno.jpg",
+      image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop&q=85",
     },
     {
       title: "Reformas y rehabilitación",
       description: "Modernizamos espacios manteniendo su esencia y mejorando su eficiencia.",
-      image: "/service-reformas.jpg",
+      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&q=85",
     },
     {
       title: "Dirección de obra",
       description: "Supervisamos cada etapa de la construcción para garantizar calidad y cumplimiento de plazos.",
-      image: "/service-direccion.jpg",
+      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop&q=85",
     },
     {
       title: "Licencias y legalización",
       description: "Gestionamos permisos y documentación técnica para agilizar proyectos.",
-      image: "/service-licencias.jpg",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop&q=85",
     },
   ]
 
