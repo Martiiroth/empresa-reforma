@@ -22,7 +22,7 @@ export default function Portfolio() {
       id: 1,
       title: "Reforma Chalet Moderna",
       category: "Chalet",
-      image: "https://images.unsplash.com/photo-1570129477492-45e003008e0c?w=1200&h=800&fit=crop&q=85",
+      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop&q=85",
       description: "Reforma integral de chalet con ampliación de superficie y diseño contemporáneo",
       year: "2024",
       location: "Getafe",
